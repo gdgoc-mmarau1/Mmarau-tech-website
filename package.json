@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "mmarau_tech_website",
   "version": "0.1.0",
@@ -23,3 +24,29 @@
     "tailwindcss": "^3.4.17"
   }
 }
+=======
+{
+  "name": "mmarau_tech_website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "build:css": "tailwindcss build -o ./public/output.css",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "swiper": "^11.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.17"
+  }
+}
+>>>>>>> 3132aa6cc480241a9c09b842bb1bd7a23dbc1989

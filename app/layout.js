@@ -1,7 +1,10 @@
 import './globals.css'
 import Nav from '../components/Nav'
 import About_us from '../components/About_us'
+<<<<<<< HEAD
 import Footer from "@/components/Footer";
+=======
+>>>>>>> 3132aa6cc480241a9c09b842bb1bd7a23dbc1989
 import Provider from '../components/Provider'
 
 export const metadata = {
@@ -19,11 +22,14 @@ const RootLayout = ({ children }) =>{
                         <About_us />
                         {children}
                     </main>
+<<<<<<< HEAD
 
                     <footer>
                         <Footer />
                         {children}
                     </footer>
+=======
+>>>>>>> 3132aa6cc480241a9c09b842bb1bd7a23dbc1989
                 
             </body>
         </html>

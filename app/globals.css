@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 @tailwind base;
 @tailwind components;
@@ -86,4 +87,94 @@ body {
 }
 
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --ggle-blue: #4285f4;
+  --ggle-red-500: #ea4335;
+  --ggle-red: #db4437;
+  --ggle-yellow: #f4b400;
+  --ggle-yellow-500: #fbbc04;
+  --ggle-green: #0f9d58;
+  --ggle-grey: #9aa0a6;
+  --ggle-green-500: #34a853;
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Outfit', sans-serif;
+  --bg-gradient: linear-gradient(45deg, var(--ggle-yellow), var(--ggle-red), var(--ggle-yellow));
+}
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+/* .bg-ggle-sign {
+  background-color: var(--ggle-blue);
+} */
+@layer utilities {
+  .bg-ggle-sign {
+    background-color:#32a8a0;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Start Nav bar styles */
+.navBar{
+@apply text-white justify-between items-center 
+}
+
+
+.navBar .dynamic-island{
+  background-color: var(--ggle-blue);
+  @apply lg:flex xl:flex lg:justify-center xl:justify-center md:justify-center md:items-center lg:items-center xl:items-center md:rounded-full lg:rounded-full xl:rounded-full md:flex-wrap lg:flex-wrap xl:flex-wrap xl:w-53p xsm:fixed md:relative lg:relative xl:relative xsm:flex xsm:flex-col md:flex-row lg:flex-row xl:flex-row xsm:top-0 xsm:right-0 xsm:bottom-0 xsm:w-52 z-50
+}
+
+.navBar ul li{
+  @apply inline-block p-3 px-5 text-white  justify-around items-center relative 
+}
+
+.navBar ul li .linked-li {
+  position: relative;
+  @apply xsm:top-10
+}
+
+.navBar ul li .linked-li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust as needed to position the line below the linked-li div */
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.navBar ul li .linked-li:hover::after {
+  width: 100%;
+}
+
+.navBar .logIn{
+  @apply md:rounded lg:rounded xl:rounded  xsm:p-2 xsm:px-5 lg:p-2 lg:px-5 xl:p-2 xl:px-5 text-white xsm:fixed md:relative lg:relative xl:relative xsm:z-10 xsm:bottom-2 xsm:right-10 md:right-0 lg:right-0 xl:right-0 xsm:rounded xsm:bg-ggle-sign md:bg-ggle-sign  lg:bg-ggle-sign  xl:bg-ggle-sign 
+
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+
+>>>>>>> 3132aa6cc480241a9c09b842bb1bd7a23dbc1989
 /* End Nav bar */

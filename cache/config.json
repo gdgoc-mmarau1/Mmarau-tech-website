@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
 	"telemetry": {
 		"notifiedAt": "1732281559109",
 		"enabled": false
 	}
+=======
+{
+	"telemetry": {
+		"notifiedAt": "1732281559109",
+		"enabled": false
+	}
+>>>>>>> 3132aa6cc480241a9c09b842bb1bd7a23dbc1989
 }

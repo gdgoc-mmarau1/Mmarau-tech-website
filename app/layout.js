@@ -1,5 +1,6 @@
 import './globals.css'
 import Nav from '../components/Nav'
+import Footer from "@/components/Footer";
 import About_us from '../components/About_us'
 import Provider from '../components/Provider'
 
@@ -18,6 +19,9 @@ const RootLayout = ({ children }) =>{
                         <About_us />
                         {children}
                     </main>
+                    <footer>
+                        <Footer />
+                    </footer>
                 
             </body>
         </html>

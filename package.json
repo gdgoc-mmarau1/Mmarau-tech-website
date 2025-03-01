@@ -10,16 +10,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@prisma/client": "^6.3.1",
+    "@prisma/client": "^6.4.1",
     "@types/bcrypt": "^5.0.2",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
     "next": "15.0.3",
-    "prisma": "^6.3.1",
+    "prisma": "^6.4.1",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "swiper": "^11.2.1"
+    "swiper": "^11.2.1",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@types/react": "19.0.10",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",

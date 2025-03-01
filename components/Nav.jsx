@@ -120,7 +120,7 @@ const Nav = () => {
         {mobileMenu && (
           <ul>
             <li className="logIn flex">
-              <Link href="/" className="flex items-center">
+              <Link href="/sign-up" className="flex items-center">
                 <div className="flex items-center">
                   <span className="md:hidden lg:inline xl:inline">Sign In</span>
                   <Image
@@ -140,7 +140,7 @@ const Nav = () => {
       <div className="xsm:hidden block">
         <ul>
           <li className="logIn flex">
-            <Link href="/" className="flex items-center">
+            <Link href="/sign-up" className="flex items-center">
               <div className="flex items-center">
                 <span className="md:hidden lg:inline xl:inline">Sign In</span>
                 <Image

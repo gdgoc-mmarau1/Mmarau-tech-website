@@ -42,32 +42,7 @@ The Maasai Mara University Tech Community website aims to foster collaboration, 
 
 ## Setup and Installation  
 
-1. Clone the Repository:  
-   ```bash  
-   git clone https://github.com/your-repo/maasai-mara-tech.git  
-   cd maasai-mara-tech  
-   ```  
-
-2. Install Dependencies:  
-   ```bash  
-   npm install  
-   ```  
-
-
-3. Run the Development Server:  
-   ```bash  
-   npm run dev  
-   ```  
-   > Access the website at `http://localhost:3000`.  
-
-
-4. Build for Production:  
-   ```bash  
-   npm run build  
-   npm start  
-   ```   
-
-
+Read the setup guide [setup.md](docs/setup.md)
 
 ## Contributing  
 

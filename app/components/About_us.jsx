@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -11,7 +10,6 @@ import "swiper/css/pagination";
 const About_us = () => {
   return (
     <div className="bg-gray-100">
-      {/* About Section */}
       <section className="max-w-7xl mx-auto px-6 py-10">
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           What is

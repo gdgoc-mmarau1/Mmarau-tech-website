@@ -1,16 +1,16 @@
 "use client";
 import React from "react";
 import { useState } from "react";
-import "../app/globals.css";
+import "../globals.css";
 import Link from "next/link";
 import Image from "next/image";
-import home_icon from "../public/assets/icons/home-icon.svg";
-import users_icon from "../public/assets/icons/users-icon.svg";
-import programs_icon from "../public/assets/icons/programs.svg";
-import blog_icon from "../public/assets/icons/blogs.svg";
-import resources_icon from "../public/assets/icons/folder-icon.svg";
-import logIn_icon from "../public/assets/icons/login-icon.svg";
-import menu_icon from "../public/assets/icons/menu-icon.png";
+import home_icon from "../../public/assets/icons/home-icon.svg";
+import users_icon from "../../public/assets/icons/users-icon.svg";
+import programs_icon from "../../public/assets/icons/programs.svg";
+import blog_icon from "../../public/assets/icons/blogs.svg";
+import resources_icon from "../../public/assets/icons/folder-icon.svg";
+import logIn_icon from "../../public/assets/icons/login-icon.svg";
+import menu_icon from "../../public/assets/icons/menu-icon.png";
 
 const Nav = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -120,7 +120,7 @@ const Nav = () => {
         {mobileMenu && (
           <ul>
             <li className="logIn flex">
-              <Link href="/" className="flex items-center">
+              <Link href="/login" className="flex items-center">
                 <div className="flex items-center">
                   <span className="md:hidden lg:inline xl:inline">Sign In</span>
                   <Image
@@ -140,7 +140,7 @@ const Nav = () => {
       <div className="xsm:hidden block">
         <ul>
           <li className="logIn flex">
-            <Link href="/" className="flex items-center">
+            <Link href="/login" className="flex items-center">
               <div className="flex items-center">
                 <span className="md:hidden lg:inline xl:inline">Sign In</span>
                 <Image

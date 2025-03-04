@@ -1,7 +1,6 @@
 import "./globals.css";
-import Nav from "../components/Nav";
-import Provider from "../components/Provider";
-import Footer from "@/components/Footer";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "GDGoC",
@@ -18,7 +17,7 @@ const RootLayout = ({ children }) => {
         </main>
         <Footer />
       </body>
-    </html>
+    </html> 
   );
 };
 

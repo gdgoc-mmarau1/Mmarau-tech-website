@@ -1,5 +1,5 @@
 import React from "react";
-import About_us from "../components/About_us";
+import About_us from "./components/About_us";
 
 const Home = ()=>{
   return (

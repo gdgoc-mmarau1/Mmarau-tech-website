@@ -8,6 +8,7 @@ import loginIcon from "../assets/icons/login-icon.svg";
 import menuIcon from "../assets/icons/menu-icon.png";
 import programsIcon from "../assets/icons/programs.svg";
 import usersIcon from "../assets/icons/users-icon.svg";
+import LineMdChatRoundDots from "../assets/icons/LineMdChatRoundDots.svg";
 ---
 
 <nav class="navBar flex items-center relative">
@@ -67,20 +68,6 @@ import usersIcon from "../assets/icons/users-icon.svg";
             </a>
         </li>
         <li>
-            <a href="/programs">
-                <div class="flex items-center linked-li">
-                    <Image
-                        src={programsIcon}
-                        alt="programs"
-                        width={20}
-                        height={20}
-                        class="object-contain mr-2"
-                    />
-                    <span class="md:hidden lg:inline xl:inline">Programs</span>
-                </div>
-            </a>
-        </li>
-        <li>
             <a href="/blog">
                 <div class="flex items-center linked-li">
                     <Image
@@ -119,6 +106,20 @@ import usersIcon from "../assets/icons/users-icon.svg";
                         height={20}
                         class="object-contain sm:ml-2 md:ml-0 lg:ml-2 xl:ml-2"
                     />
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="/faqs">
+                <div class="flex items-center linked-li">
+                    <Image
+                        src={LineMdChatRoundDots}
+                        alt="faqs"
+                        width={20}
+                        height={20}
+                        class="object-contain mr-2"
+                    />
+                    <span class="md:hidden lg:inline xl:inline">FAQs</span>
                 </div>
             </a>
         </li>
